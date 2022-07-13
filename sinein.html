@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <h2>Sign Up</h2>
+
+
+        <form>
+            <div class="form-group">
+                <label for="firstname">Name</label>
+                <input type="text"  required class="form-control" Name="myname" id="name">
+            </div>
+
+
+            <div class="form-group">
+                <label for="firstname">Last name</label>
+                <input type="text"  required class="form-control" Name="myname" id="name">
+            </div>
+
+            <div class="form-group">
+                  <label for="date">DOB</label>
+                  <input type="date" class="form-control" Name="DOB" id="DOB">
+              </div>
+
+            <div class="form-group">
+                <label for="last Name">Gender</label>
+
+                <div class="form-check">
+                    <label class="form-check-label" for="radio1"></label>
+                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Male" checked>Male
+
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Female">Female
+                    <label class="form-check-label" for="radio2"></label>
+
+                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Female">Not Prefer to choose 
+                    <label class="form-check-label" for="radio2"></label>
+                </div>
+            </div>
+            
+
+          
+
+            <div class="form-group">
+                <label for="ZipCode">ZipCode</label>
+                <input type="number" required Name="ZipCode" id="Zipcode" class="form-control">
+            </div>
+
+               
+
+                <div class="form-group">
+                    <label for="Address">Address</label>
+                    <textarea  required class="form-control"> </textarea>
+                </div>
+
+
+                <div class="form-group">
+                  <label for="City">City</label>
+                  <select class="form-select">
+                      <option>Ujjain</option>
+                      <option>Indore</option>
+                      <option>Devas</option>
+                      <option>Bhopal</option>
+                  </select>
+              </div>
+                
+               
+
+
+                <div class="form-group">
+                  <label for="Hobbies">Terms and Conditions </label>
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something"
+                          >
+                      <label class="form-check-label">Agree </label>
+  
+                     
+                  </div>
+
+                  <div class="form-group">
+                           <button type="submit" class="btn btn-primary">Primary</button>
+                           
+                       </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
